@@ -6,22 +6,22 @@ require('dotenv').config();
 
 //================= { SETTINGS } =================\\
 global.prefix = process.env.PREFIX || "."; // your desired prefix symbol only
-global.owner = process.env.OWNER_NUMBER || "2347036214381" // owner number 
-global.sudo = process.env.SUDO  || " ";
-global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
-global.botname = process.env.BOT_NAME || "αrch md"
-global.author = process.env.AUTHOR  || "Ednut";
+global.owner = process.env.OWNER_NUMBER || "263714183261" // owner number 
+global.sudo = process.env.SUDO  || "263714183261 ";
+global.ownername = process.env.OWNER_NAME || "Mandishona Innocent"; //set bot owner name here 
+global.botname = process.env.BOT_NAME || "ARCH MD"
+global.author = process.env.AUTHOR  || "SHADOWWALKER V2";
 global.packname = process.env.PACK_NAME  || "Arch Md ²⁵";
 global.thumb = process.env.THUMB_IMAGE || 'https://files.catbox.moe/1uhvld.jpg';
 global.footer = '🤖 © wa bot';
 global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
 global.onlygc = process.env.ONLYGC_MSG  || "Sorry buddy the bot won't work directly in private chat to reduce spam use in group";
-global.session = process.env.SESSION_ID || ""
+global.session = process.env.SESSION_ID || "Arch_Md-KpBlTRQI#ycvwEDFPj9nUp3EZYxoC9Xp1Sz1W6OUMsHt80ZxJxbg"
 global.simbol = process.env.SYMBOL || '♘'
 global.menutype = process.env.MENU_TYPE  || "v3";
 global.warn = process.env.WARN || "3"
-global.welcome = process.env.WELCOME === 'false'
-global.goodbye = process.env.GOODBYE === 'false'
+global.welcome = process.env.WELCOME === 'true'
+global.goodbye = process.env.GOODBYE === 'true'
 global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
 global.startup = false
 
